@@ -1,93 +1,52 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
-container {
-    max-width: 1400px;
-    margin: 0 auto;
-}
-.main-header .navbar {
-    padding: 10px;
-    /* border: blue solid 1px; */
-}
-.main-header .navbar ul {
-    display: inline-block;
-    /* border: green solid 1px; */
-}
-.main-header .navbar ul li {
-    display: inline;
-    padding: 0 20px;
-}
-.main-header .navbar ul li a {
-    color: #ccc;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
-}
-.logo {
-    margin-left: 35%;
-}
-.main-header .caption {
-    display: inline;
-    text-align: center;
-}
-.main-header .caption h1 {
-    font-size: 75px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10% 0 2% 10%;
-}
-.main-header .caption a {
-    padding: 0 20px 0 20px;
-    border:#333 1px solid;
-    color: #333;
-    text-decoration: none;
-    margin: 0 0 0 16%;
-    font-size: 20px;
-}
-
 .container {
     max-width: 1400px;
     margin: 0 auto;
 }
 .main-header .navbar {
+    display: flex;
     padding: 10px;
-    /* border: blue solid 1px; */
+    background-color:rebeccapurple;
 }
 .main-header .navbar ul {
-    display: inline-block;
-    /* border: green solid 1px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color:orange;
 }
 .main-header .navbar ul li {
-    display: inline;
-    padding: 0 20px;
+    display: flex;
+    padding: 0 2rem;
 }
 .main-header .navbar ul li a {
     color: #ccc;
     text-decoration: none;
-    padding: 5px;
-    font-size: 20px;
+    padding: 5%;
+    font-size: 1.3rem;
 }
 .logo {
-    margin-left: 35%;
+    margin-left: 17%;
 }
 .main-header .caption {
     display: inline;
     text-align: center;
 }
 .main-header .caption h1 {
-    font-size: 75px;
-    display: inline-block;
-    padding: 5px;
+    font-size: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
     margin: 10% 0 2% 10%;
+    background-color: orchid;
 }
 .main-header .caption a {
-    padding: 0 20px 0 20px;
-    border:#333 1px solid;
+    padding: 0 2rem 0 2rem;
+    border:#333 .1rem solid;
     color: #333;
     text-decoration: none;
     margin: 0 0 0 16%;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .main-header .header-img {
-    margin: -25% 0 8% 70%;
+    margin: -35% 0 8% 70%;
 }
 .content-section .content-box-top {
     display: inline-block;
@@ -118,5 +77,3 @@ footer p {
 footer .copyright {
     text-align: center;
 }
-
-
