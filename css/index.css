@@ -1,16 +1,14 @@
 .container {
-    max-width: 1400px;
+    max-width: 87.5rem;
     margin: 0 auto;
 }
 .main-header .navbar {
     display: flex;
-    padding: 10px;
-    background-color:rebeccapurple;
+    padding: 1rem;
 }
 .main-header .navbar ul {
     display: flex;
     justify-content: space-evenly;
-    background-color:orange;
 }
 .main-header .navbar ul li {
     display: flex;
@@ -35,7 +33,6 @@
     flex-wrap: wrap;
     padding: 5%;
     margin: 10% 0 2% 10%;
-    background-color: orchid;
 }
 .main-header .caption a {
     padding: 0 2rem 0 2rem;
@@ -48,25 +45,26 @@
 .main-header .header-img {
     margin: -35% 0 8% 70%;
 }
-.content-section .content-box-top {
+.content-section .content-box-top {  /* no flex display here*/   
     display: inline-block;
-    max-width: 500px;
+    max-width: 31.25rem;
     margin: 2% 0 2% 8%;
-    padding: 20px;
+    padding: 2rem;
 }
 .content-section .content-box h1 {
-    font-size: 30px;
+    font-size: 2rem;
+    display: flex;
 }
 .content-section .middle-img {
-    display: block;
+    display: flex;
     margin: 0 auto;
     width: 100%;
 }
-.content-section .content-box-bottom {
+.content-section .content-box-bottom {  /* no flex display here*/   
     display: inline-block;
-    max-width: 300px;
+    max-width: 18.75rem;
     margin: 2% 0 2% 8%;
-    padding: 20px;
+    padding: 1rem;
 }
 footer h1 {
     margin-top: 2%;
