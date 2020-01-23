@@ -75,3 +75,36 @@ footer p {
 footer .copyright {
     text-align: center;
 }
+
+@media(max-width: 800px) {
+ 
+    .main-header .navbar {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .main-header .header-img {
+        display: none;
+    }
+    .logo {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        max-width: 50%;
+    }
+    .main-header .caption h1 {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .caption a{
+        width:50%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+       
+    }
+
+   
+}
