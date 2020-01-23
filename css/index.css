@@ -103,8 +103,16 @@ footer .copyright {
         display: flex;
         justify-content: center;
         margin: 0 auto;
-       
     }
 
+    .content-box-top{
+        width: 25%;
+        display: flex;
+    }
+
+    .content-box-bottom{
+        width: 20%;
+        display: flex;
+    }
    
 }
